@@ -3,9 +3,11 @@ title: "Capacity Imbalance"
 author: "PRU"
 date: "2/23/2019"
 output:
-  word_document: default
+  word_document:
+    reference_docx: template_icns_2019.docx
   html_document: default
-  
+bibliography: references_icns_2019.bib 
+csl: ieee-transactions-on-aerospace-and-electronic-systems.csl
 ---
 
 ```{r setup, include=FALSE}
