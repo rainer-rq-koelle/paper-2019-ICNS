@@ -1,0 +1,60 @@
+---
+title: "Capacity Imbalance"
+author: "PRU"
+date: "2/23/2019"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+```
+teaser / motivation
+```
+
+```
+nature of problem
+```
+
+```
+high-level goals/objectives - other relevant work - purpose/significance of paper
+```
+
+```
+mthod by which problem is approached
+```
+
+```
+contribution
+```
+
+# Background
+
+# Method / Approach
+
+# Results
+
+# Conclusions
+
+```
+1. What is shown by this work and its significance.
+```
+
+```
+2. Limitations and advantages.
+```
+
+```
+3. Applications of the results.
+```
+
+```
+4. Recommendations for further work.
+```
+
+# References
