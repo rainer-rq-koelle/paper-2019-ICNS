@@ -5,6 +5,7 @@ date: "2/23/2019"
 output:
   word_document: default
   html_document: default
+  
 ---
 
 ```{r setup, include=FALSE}
@@ -34,6 +35,9 @@ contribution
 ```
 
 # Background
+
+Runway configurations are given in the following notation: (R1,R1 | R2) [@avery_2015; @ramanujam_2015]. 
+The runway configuration can also play an essential role in the recovery from disruptions [@koelle_2015].
 
 # Method / Approach
 
