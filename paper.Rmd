@@ -3,11 +3,11 @@ title: "Capacity Imbalance"
 author: "PRU"
 date: "2/23/2019"
 output:
-  word_document:
+  bookdown::word_document2:
     reference_docx: template_icns_2019.docx
-  html_document: default
-bibliography: references_icns_2019.bib 
+    fig_caption: yes
 csl: ieee-transactions-on-aerospace-and-electronic-systems.csl
+bibliography: references_icns_2019.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -19,29 +19,60 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 teaser / motivation
 ```
+The recent years have seen a political for action to address the capacity shortages.
+The Growth Study <reference> similar to ACI's Director General [@jankovec_2018] point out that the airport capacity crunch is one of the major challenges for the growth of air transporation within the European context.
 
 ```
 nature of problem
 ```
+Airport capacity is a multi-facetted topic and there exists no single commonly agreed definition. 
+In general, capacity refers to the ability of a system to satisfy demand.
+However already this view can be constraint by political goals. For example, xxx defines capacity as a tuple of A, B, C.
+An example of a politically motivated cap is Amsterdam Schiphol. In other airports such limits are expressed in terms of passengers served.
+The operational capacity of an airport is determined therefore by both subsystems, i.e. airside and landside. 
+Airport airside capacity is determined by a combination of the infrastructure elements, i.e. apron, taxiway, and runway system, existing operational practices and procedures, and associated constraints (e.g. noise abatement, environmental protection, night curfew).
 
 ```
 high-level goals/objectives - other relevant work - purpose/significance of paper
 ```
+<< ... >>
+Among all factors affecting the runway system capacity, the runway configuration is considered as the most relevant. While some airport layouts allow for very similar operation conditions in one runway configuration or another, resulting in equal or similar capacities for all possible runway configurations, other layouts do not offer that “symmetric capacity” as the different configurations might have very different operating conditions, dependencies and limitations.
+
 
 ```
-mthod by which problem is approached
+method by which problem is approached
 ```
+This study applies an empirical data-driven approach and analyses the potential imbalance in capacity depending on the runway configuration for a subset of European airports.
+The work builds on the post-operational data collection by the Performance Review Unit.
+
+<<...>>
 
 ```
 contribution
 ```
+The contribution of this paper are as follows:
+
+* conceptual modelling of the analysis problem
+* proposed identification method of runway configurations for post-operational performance data analyses;
+* ...
+
 
 # Background
 
 Runway configurations are given in the following notation: (R1,R1 | R2) [@avery_2015; @ramanujam_2015]. 
 The runway configuration can also play an essential role in the recovery from disruptions [@koelle_2015].
 
+Can I create a new citation/reference? 
+
 # Method / Approach
+
+(ref:rwy-config-analysis-approach) Steps of analysis.
+
+```{r rwy-config-analysis-approach, fig.cap='(ref:rwy-config-analysis-approach)', fig.pos='hbt', fig.height = 4}
+knitr::include_graphics("figures/rwy-config-analysis-approach.png")
+```
+
+Fig. \@ref(fig:rwy-config-analysis-approach) depicts the overall approach.
 
 # Results
 
