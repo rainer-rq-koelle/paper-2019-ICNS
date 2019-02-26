@@ -28,6 +28,7 @@ nature of problem
 Airport capacity is a multi-facetted topic and there exists no single commonly agreed definition. 
 In general, capacity refers to the ability of a system to satisfy demand.
 However already this view can be constraint by political goals. For example, xxx defines capacity as a tuple of A, B, C.
+Different factors (c.f. [@mota_etal_2017]).
 An example of a politically motivated cap is Amsterdam Schiphol. In other airports such limits are expressed in terms of passengers served.
 The operational capacity of an airport is determined therefore by both subsystems, i.e. airside and landside. 
 Airport airside capacity is determined by a combination of the infrastructure elements, i.e. apron, taxiway, and runway system, existing operational practices and procedures, and associated constraints (e.g. noise abatement, environmental protection, night curfew).
@@ -62,7 +63,16 @@ The contribution of this paper are as follows:
 Runway configurations are given in the following notation: (R1,R1 | R2) [@avery_2015; @ramanujam_2015]. 
 The runway configuration can also play an essential role in the recovery from disruptions [@koelle_2015].
 
-Can I create a new citation/reference? 
+## Aerodrome - Runway System Characterisation
+
+(ref:EHAM-aerodrome-layout) Aerodrome chart for Amsterdam Schiphol (EHAM).
+
+```{r EHAM-aerodrome-layout, fig.cap='(ref:EHAM-aerodrome-layout)', fig.pos='hbt', fig.height = 4}
+knitr::include_graphics("figures/rwy-config-analysis-approach.png")
+```
+
+Amsterdam Schiphol (EHAM) represents one of the most complex aerodrome layouts in Europe (c.f. Fig. \@ref(fig:EHAM-aerodrome-layout)).
+
 
 # Method / Approach
 
