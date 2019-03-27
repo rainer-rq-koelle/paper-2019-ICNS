@@ -1,13 +1,21 @@
 ---
 title: "Capacity Imbalance"
-author: "PRU"
-date: "2/23/2019"
-output:
-  bookdown::word_document2:
-    reference_docx: template_icns_2019.docx
-    fig_caption: yes
-csl: ieee-transactions-on-aerospace-and-electronic-systems.csl
+author: Sara Meson-Mancha, Thierry de Lange, and Rainer Koelle, EUROCONTROL, Performance
+  Review Unit, Brussels (Belgium) Iciar Garcia-Ovies Carro, CRIDA, Madrid (Spain)
 bibliography: references_icns_2019.bib
+output:
+  bookdown::pdf_document2
+csl: ieee-transactions-on-aerospace-and-electronic-systems.csl
+abstract: "The recent years are marked by a recurring discussion on the capacity crunch
+  at European airports. \nThis paper studys the impact of the runway configuration
+  on the associated observed runway throughput and related runway system capacity.\nThis
+  paper employs a post-operational case study approach. Based on operational movement
+  data collected from 5 European airports, the runway system configuration are determined.\nThe
+  results demonstrate the general feasibility of the approach. Further research will
+  focus on the validation of the chosen parameter across the subset of all European
+  airports for which data is collected. Furthermore, the identification of the runway
+  configuration allows for a further breakdown of the existing performance indicators.
+  \n"
 ---
 
 ```{r setup, include=FALSE}
@@ -20,7 +28,11 @@ knitr::opts_chunk$set(echo = TRUE)
 teaser / motivation
 ```
 The recent years have seen a political for action to address the capacity shortages.
+>>>>>The EUROCONTROL ‘Challenges of Growth 2018’ study predicts there will be a lack of capacity at European airports in 2040 preventing around 1.5 million flights from flying. Such a lack of capacity could mean 160 million passengers would not be able to travel with a potential economic loss of around €88 billion to the European economy, <<<<<<
+[@growthchallenge_2018]
 The Growth Study <reference> similar to ACI's Director General [@jankovec_2018] point out that the airport capacity crunch is one of the major challenges for the growth of air transporation within the European context.
+While there is agreement that additional runways are needed in Europe, the recent expansion projects in Frankfurt, Munich, or London Heathrow have been heavily scrutinised and resulted in long processes.
+This puts emphasis on today's operations and in particular on any reduction of airport capacity due to operational procedures or constraints.
 
 ```
 nature of problem
@@ -60,6 +72,10 @@ The contribution of this paper are as follows:
 
 # Background
 
+## 
+
+Airport Airside Capacity refers to the ability of the airport runway/taxiway/apron system to handle a given demand of flights within a specified time period, incurring an acceptable level of delay (to be determined by the airport stakeholders). It is defined by the International Civil Aviation Organisation (ICAO) as the ‘number of movements per unit of time that can be accepted during different meteorological conditions’ 
+
 Runway configurations are given in the following notation: (R1,R1 | R2) [@avery_2015; @ramanujam_2015]. 
 The runway configuration can also play an essential role in the recovery from disruptions [@koelle_2015].
 
@@ -68,7 +84,7 @@ The runway configuration can also play an essential role in the recovery from di
 (ref:EHAM-aerodrome-layout) Aerodrome chart for Amsterdam Schiphol (EHAM).
 
 ```{r EHAM-aerodrome-layout, fig.cap='(ref:EHAM-aerodrome-layout)', fig.pos='hbt', fig.height = 4}
-knitr::include_graphics("figures/rwy-config-analysis-approach.png")
+knitr::include_graphics("figures/EHAM.png")
 ```
 
 Amsterdam Schiphol (EHAM) represents one of the most complex aerodrome layouts in Europe (c.f. Fig. \@ref(fig:EHAM-aerodrome-layout)).
@@ -103,5 +119,9 @@ Fig. \@ref(fig:rwy-config-analysis-approach) depicts the overall approach.
 ```
 4. Recommendations for further work.
 ```
+
+# Acknowledgment
+
+The authors thank Jan Malawko, Performance Review Commission, for his input and discussion of the concept underpinning this work. 
 
 # References
